@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import GlobalHeader from './GlobalHeader'
-import GlobalFooter from './GlobalFooter'
-import Drawer from '../components/tool/Drawer'
+import GlobalHeader from './global-header'
+import GlobalFooter from './global-footer'
+import Drawer from '../components/tool/d'
 import SiderMenu from '../components/menu/SiderMenu'
 import Setting from '../components/setting/Setting'
 

@@ -15,4 +15,5 @@ export default function enquireScreen(callBack: any) {
       }
     }
   }
+  enquireJs.register('only screen and (max-width: 767.99px)', hanlder)
 }
