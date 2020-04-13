@@ -1,15 +1,8 @@
 <template>
   <global-layout>
     <contextmenu :itemList="menuItemList" :visible.sync="menuVisible" @select="onMenuSelect" />
-    <a-tabs
-      @contextmenu.native="e => onContextmenu(e)"
-      v-if="multipage"
-      :active-key="activePage"
-      style="margin-top: -8px; margin-bottom: 8px"
-      :hide-add="true"
-      type="editable-card"
-      @change="changePage"
-      @edit="editPage">
+    <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" style="margin-top: -8px; margin-bottom: 8px" :hide-add="true" type="editable-card"
+      @change="changePage" @edit="editPage">
       <a-tab-pane :id="page.fullPath" :key="page.fullPath" v-for="page in pageList">
         <span slot="tab" :pagekey="page.fullPath">{{page.name}}</span>
       </a-tab-pane>
@@ -28,8 +21,8 @@ import GlobalLayout from './GlobalLayout'
 import Contextmenu from '../components/menu/Contextmenu'
 export default {
   name: 'MenuView',
-  components: {Contextmenu, GlobalLayout},
-  data () {
+  components: { Contextmenu, GlobalLayout },
+  data() {
     return {
       pageList: [],
       linkList: [],
@@ -43,17 +36,17 @@ export default {
     }
   },
   computed: {
-    multipage () {
+    multipage() {
       return this.$store.state.setting.multipage
     }
   },
-  created () {
+  created() {
     this.pageList.push(this.$route)
     this.linkList.push(this.$route.fullPath)
     this.activePage = this.$route.fullPath
   },
   watch: {
-    '$route': function (newRoute, oldRoute) {
+    $route(newRoute, oldRoute) {
       this.activePage = newRoute.fullPath
       if (!this.multipage) {
         this.linkList = [newRoute.fullPath]
@@ -63,10 +56,10 @@ export default {
         this.pageList.push(newRoute)
       }
     },
-    'activePage': function (key) {
+    activePage(key) {
       this.$router.push(key)
     },
-    'multipage': function (newVal, oldVal) {
+    multipage(newVal, oldVal) {
       if (!newVal) {
         this.linkList = [this.$route.fullPath]
         this.pageList = [this.$route]
@@ -74,13 +67,13 @@ export default {
     }
   },
   methods: {
-    changePage (key) {
+    changePage(key) {
       this.activePage = key
     },
-    editPage (key, action) {
+    editPage(key, action) {
       this[action](key)
     },
-    remove (key) {
+    remove(key) {
       if (this.pageList.length === 1) {
         this.$message.warning('这是最后一页，不能再关闭了啦')
         return
@@ -91,7 +84,7 @@ export default {
       index = index >= this.linkList.length ? this.linkList.length - 1 : index
       this.activePage = this.linkList[index]
     },
-    onContextmenu (e) {
+    onContextmenu(e) {
       const pagekey = this.getPageKey(e.target)
       if (pagekey !== null) {
         e.preventDefault()
@@ -106,7 +99,7 @@ export default {
      * @param count 查询层级深度 （查找层级最多不超过3层，超过3层深度直接返回 null）
      * @returns {String}
      */
-    getPageKey (target, depth) {
+    getPageKey(target, depth) {
       depth = depth || 0
       if (depth > 2) {
         return null
@@ -115,8 +108,8 @@ export default {
       pageKey = pageKey || (target.previousElementSibling ? target.previousElementSibling.getAttribute('pagekey') : null)
       return pageKey || (target.firstElementChild ? this.getPageKey(target.firstElementChild, ++depth) : null)
     },
-    onMenuSelect (key, target) {
-      let pageKey = this.getPageKey(target)
+    onMenuSelect(key, target) {
+      const pageKey = this.getPageKey(target)
       switch (key) {
         case '1':
           this.closeLeft(pageKey)
@@ -131,22 +124,22 @@ export default {
           break
       }
     },
-    closeOthers (pageKey) {
-      let index = this.linkList.indexOf(pageKey)
+    closeOthers(pageKey) {
+      const index = this.linkList.indexOf(pageKey)
       this.linkList = this.linkList.slice(index, index + 1)
       this.pageList = this.pageList.slice(index, index + 1)
       this.activePage = this.linkList[0]
     },
-    closeLeft (pageKey) {
-      let index = this.linkList.indexOf(pageKey)
+    closeLeft(pageKey) {
+      const index = this.linkList.indexOf(pageKey)
       this.linkList = this.linkList.slice(index)
       this.pageList = this.pageList.slice(index)
       if (this.linkList.indexOf(this.activePage) < 0) {
         this.activePage = this.linkList[0]
       }
     },
-    closeRight (pageKey) {
-      let index = this.linkList.indexOf(pageKey)
+    closeRight(pageKey) {
+      const index = this.linkList.indexOf(pageKey)
       this.linkList = this.linkList.slice(0, index + 1)
       this.pageList = this.pageList.slice(0, index + 1)
       if (this.linkList.indexOf(this.activePage < 0)) {
@@ -158,5 +151,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

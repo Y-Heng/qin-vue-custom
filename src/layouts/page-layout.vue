@@ -7,7 +7,8 @@
         <p style="font-size: 14px;line-height: 1.5;color: rgba(0,0,0,.65)">{{ desc }}</p>
         <div class="link">
           <template v-for="(link, index) in linkList">
-            <a :key="index" :href="link.href"><a-icon :type="link.icon" />{{ link.title }}</a>
+            <a :key="index" :href="link.href">
+              <a-icon :type="link.icon" />{{ link.title }}</a>
           </template>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default {
     return {
       minHeight: minHeight + 'px',
       collapsed: false,
-      menuData: menuData,
+      menuData,
       showSetting: false
     }
   },

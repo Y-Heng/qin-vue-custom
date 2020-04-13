@@ -4,11 +4,15 @@ export default function enquireScreen(callBack: any) {
   const hanlder = {
     match() {
       // callBack(true)
-      callBack && callBack(true)
+      if (callBack) {
+        callBack(true)
+      }
     },
     unmatch() {
       // callBack(false)
-      callBack && callBack(false)
+      if (callBack) {
+        callBack(false)
+      }
     }
   }
 }
