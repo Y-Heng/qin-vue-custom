@@ -56,7 +56,7 @@ export default {
       return (this.percent === null ? (Math.abs(this.value - this.target) * 100) / this.target : this.percent).toFixed(this.scale)
     },
     caulateTrend() {
-      let isIncrease = this.isIncrease === null ? this.value >= this.target : this.isIncrease
+      const isIncrease = this.isIncrease === null ? this.value >= this.target : this.isIncrease
       return isIncrease ? 'up' : 'down'
     }
   }

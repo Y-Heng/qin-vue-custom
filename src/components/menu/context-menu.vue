@@ -21,7 +21,7 @@ export default {
       default: () => []
     }
   },
-  data () {
+  data() {
     return {
       left: 0,
       top: 0,
@@ -30,29 +30,29 @@ export default {
     }
   },
   computed: {
-    style () {
+    style() {
       return {
         left: this.left + 'px',
         top: this.top + 'px'
       }
     }
   },
-  created () {
+  created() {
     window.addEventListener('mousedown', e => this.closeMenu(e))
     window.addEventListener('contextmenu', e => this.setPosition(e))
   },
   methods: {
-    closeMenu (e) {
+    closeMenu(e) {
       if (['menuitemicon', 'menuitem'].indexOf(e.target.getAttribute('role')) < 0) {
         this.$emit('update:visible', false)
       }
     },
-    setPosition (e) {
+    setPosition(e) {
       this.left = e.clientX
       this.top = e.clientY
       this.target = e.target
     },
-    handleClick ({key}) {
+    handleClick({ key }) {
       this.$emit('select', key, this.target)
       this.$emit('update:visible', false)
     }
@@ -61,11 +61,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .contextmenu{
-    position: fixed;
-    z-index: 1;
-    border: 1px solid #9e9e9e;
-    border-radius: 4px;
-    box-shadow: 2px 2px 10px #aaaaaa !important;
-  }
+.contextmenu {
+  position: fixed;
+  z-index: 1;
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #aaaaaa !important;
+}
 </style>

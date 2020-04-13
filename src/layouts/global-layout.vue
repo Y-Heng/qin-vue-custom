@@ -25,9 +25,9 @@
 <script>
 import GlobalHeader from './global-header'
 import GlobalFooter from './global-footer'
-import Drawer from '../components/tool/d'
-import SiderMenu from '../components/menu/SiderMenu'
-import Setting from '../components/setting/Setting'
+import Drawer from '../components/tool/drawer'
+import SiderMenu from '../components/menu/sider-menu'
+import Setting from '../components/setting/setting'
 
 const minHeight = window.innerHeight - 64 - 24 - 122
 

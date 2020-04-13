@@ -22,19 +22,19 @@ const Group = {
       default: () => []
     }
   },
-  data () {
+  data() {
     return {
       values: [],
       options: []
     }
   },
-  provide () {
+  provide() {
     return {
       groupContext: this
     }
   },
   watch: {
-    'values': function (newVal, oldVal) {
+    values(newVal, oldVal) {
       // 此条件是为解决单选时，触发两次chang事件问题
       if (!(newVal.length === 1 && oldVal.length === 1 && newVal[0] === oldVal[0])) {
         this.$emit('change', this.values)
@@ -42,7 +42,7 @@ const Group = {
     }
   },
   methods: {
-    handleChange (option) {
+    handleChange(option) {
       if (!option.checked) {
         this.values = this.values.filter(item => item !== option.value)
       } else {
@@ -59,11 +59,11 @@ const Group = {
       }
     }
   },
-  render (h) {
+  render(h) {
     return h(
       'div',
       {
-        attrs: {style: 'display: flex'}
+        attrs: { style: 'display: flex' }
       },
       [this.$slots.default]
     )
@@ -87,14 +87,14 @@ export default {
       required: true
     }
   },
-  data () {
+  data() {
     return {
       sChecked: this.checked
     }
   },
   inject: ['groupContext'],
   watch: {
-    'sChecked': function (val) {
+    sChecked(val) {
       const option = {
         value: this.value,
         checked: this.sChecked
@@ -106,7 +106,7 @@ export default {
       }
     }
   },
-  created () {
+  created() {
     const groupContext = this.groupContext
     if (groupContext) {
       this.sChecked = groupContext.defaultValues.length > 0 ? groupContext.defaultValues.indexOf(this.value) >= 0 : this.sChecked
@@ -114,7 +114,7 @@ export default {
     }
   },
   methods: {
-    toggle () {
+    toggle() {
       this.sChecked = !this.sChecked
     }
   }
@@ -122,22 +122,22 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .img-check-box{
-    margin-right: 16px;
-    position: relative;
-    border-radius: 4px;
-    cursor: pointer;
-    .check-item{
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      padding-top: 15px;
-      padding-left: 24px;
-      height: 100%;
-      color: #1890ff;
-      font-size: 14px;
-      font-weight: bold;
-    }
+.img-check-box {
+  margin-right: 16px;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  .check-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 24px;
+    height: 100%;
+    color: #1890ff;
+    font-size: 14px;
+    font-weight: bold;
   }
+}
 </style>

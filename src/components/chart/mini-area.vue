@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {format} from 'date-fns'
+import { format } from 'date-fns'
 
 const data = []
 const beginDay = new Date().getTime()
@@ -31,19 +31,22 @@ const tooltip = [
   })
 ]
 
-const scale = [{
-  dataKey: 'x',
-  min: 2
-}, {
-  dataKey: 'y',
-  title: '时间',
-  min: 1,
-  max: 22
-}]
+const scale = [
+  {
+    dataKey: 'x',
+    min: 2
+  },
+  {
+    dataKey: 'y',
+    title: '时间',
+    min: 1,
+    max: 22
+  }
+]
 
 export default {
   name: 'MiniArea',
-  data () {
+  data() {
     return {
       data,
       scale,
@@ -55,13 +58,13 @@ export default {
 </script>
 
 <style scoped>
-  .mini-chart {
-    position: relative;
-    width: 100%
-  }
-  .mini-chart .chart-content{
-    position: absolute;
-    bottom: -28px;
-    width: 100%;
-  }
+.mini-chart {
+  position: relative;
+  width: 100%;
+}
+.mini-chart .chart-content {
+  position: absolute;
+  bottom: -28px;
+  width: 100%;
+}
 </style>

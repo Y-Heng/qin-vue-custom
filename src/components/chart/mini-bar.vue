@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {format} from 'date-fns'
+import { format } from 'date-fns'
 
 const data = []
 const beginDay = new Date().getTime()
@@ -31,19 +31,22 @@ const tooltip = [
   })
 ]
 
-const scale = [{
-  dataKey: 'x',
-  min: 2
-}, {
-  dataKey: 'y',
-  title: '时间',
-  min: 1,
-  max: 22
-}]
+const scale = [
+  {
+    dataKey: 'x',
+    min: 2
+  },
+  {
+    dataKey: 'y',
+    title: '时间',
+    min: 1,
+    max: 22
+  }
+]
 
 export default {
   name: 'MiniBar',
-  data () {
+  data() {
     return {
       data,
       scale,
@@ -55,5 +58,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "index.less";
+@import 'index.less';
 </style>

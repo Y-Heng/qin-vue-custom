@@ -4,12 +4,12 @@
       <a-alert type="info" :show-icon="true">
         <div slot="message">
           已选择&nbsp;<a style="font-weight: 600">{{selectedRows.length}}</a>&nbsp;项&nbsp;&nbsp;
-          <template v-for="(item, index) in needTotalList" v-if="item.needTotal">
+          <div v-for="(item, index) in needTotalList" v-show="item.needTotal" :key="index">
             {{item.title}}总计&nbsp;
             <a :key="index" style="font-weight: 600">
               {{item.customRender ? item.customRender(item.total) : item.total}}
             </a>&nbsp;&nbsp;
-          </template>
+          </div>
           <a style="margin-left: 24px">清空</a>
         </div>
       </a-alert>
@@ -33,7 +33,7 @@ export default {
   methods: {
     updateSelect(selectedRowKeys, selectedRows) {
       this.selectedRowKeys = selectedRowKeys
-      let list = this.needTotalList
+      const list = this.needTotalList
       this.needTotalList = list.map(item => {
         return {
           ...item,
@@ -58,7 +58,7 @@ export default {
     this.needTotalList = this.initTotalList(this.columns)
   },
   watch: {
-    selectedRows: function(selectedRows) {
+    selectedRows(selectedRows) {
       this.needTotalList = this.needTotalList.map(item => {
         return {
           ...item,

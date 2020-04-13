@@ -20,7 +20,6 @@ Vue.use(VueLazyload, {
   error: require('@/assets/empty.png'),
   loading: require('@/assets/empty.png')
 })
-
 new Vue({
   router,
   store,

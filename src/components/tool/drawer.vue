@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <div :class="['mask', openDrawer ? 'open' : 'close']" @click="close"></div>
     <div :class="['drawer', placement, openDrawer ? 'open' : 'close']">
       <div ref="drawer" style="position: relative; height: 100%;">
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: 'Drawer',
-  data () {
+  data() {
     return {
       drawerWidth: 0
     }
@@ -40,11 +40,11 @@ export default {
       default: true
     }
   },
-  mounted () {
+  mounted() {
     this.drawerWidth = this.getDrawerWidth()
   },
   watch: {
-    'drawerWidth': function (val) {
+    drawerWidth(val) {
       if (this.placement === 'left') {
         this.$refs.handler.style.left = val + 'px'
       } else {
@@ -53,16 +53,16 @@ export default {
     }
   },
   methods: {
-    open () {
+    open() {
       this.$emit('change', true)
     },
-    close () {
+    close() {
       this.$emit('change', false)
     },
-    handle () {
+    handle() {
       this.$emit('change', !this.openDrawer)
     },
-    getDrawerWidth () {
+    getDrawerWidth() {
       return this.$refs.drawer.clientWidth
     }
   }
@@ -70,71 +70,71 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .mask{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: all 0.5s;
-    z-index: 100;
-    &.open{
-      display: inline-block;
-    }
-    &.close{
-      display: none;
-    }
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  z-index: 100;
+  &.open {
+    display: inline-block;
   }
-  .drawer{
-    position: fixed;
-    height: 100%;
-    transition: all 0.5s;
-    z-index: 100;
-    &.left{
-      left: 0px;
-      &.open{
-        box-shadow: 2px 0 8px rgba(0,0,0,.15);
-      }
-      &.close{
-        transform: translateX(-100%);
-      }
-    }
-    &.right{
-      right: 0px;
-      &.open{
-        box-shadow: -2px 0 8px rgba(0,0,0,.15);
-      }
-      &.close{
-        transform: translateX(100%);
-      }
-    }
-    .sider{
-      height: 100%;
-    }
+  &.close {
+    display: none;
   }
-  .handler-container{
-    position: fixed;
-    top: 200px;
-    text-align: center;
-    transition: all 0.5s;
-    cursor: pointer;
-    .handler {
-      height: 40px;
-      width: 40px;
-      background-color: #fff;
-      z-index: 100;
-      font-size: 26px;
+}
+.drawer {
+  position: fixed;
+  height: 100%;
+  transition: all 0.5s;
+  z-index: 100;
+  &.left {
+    left: 0px;
+    &.open {
       box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
-      line-height: 40px;
     }
-    &.left{
-      .handler{
-        border-radius: 0 5px 5px 0;
-      }
-    }
-    &.right{
-      .handler{
-        border-radius: 5px 0 0 5px;
-      }
+    &.close {
+      transform: translateX(-100%);
     }
   }
+  &.right {
+    right: 0px;
+    &.open {
+      box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+    }
+    &.close {
+      transform: translateX(100%);
+    }
+  }
+  .sider {
+    height: 100%;
+  }
+}
+.handler-container {
+  position: fixed;
+  top: 200px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  .handler {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    z-index: 100;
+    font-size: 26px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    line-height: 40px;
+  }
+  &.left {
+    .handler {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+  &.right {
+    .handler {
+      border-radius: 5px 0 0 5px;
+    }
+  }
+}
 </style>

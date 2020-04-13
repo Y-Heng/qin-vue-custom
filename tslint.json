@@ -17,7 +17,7 @@
     "no-console": [false, "log", "error"],
     "type-literal-delimiter": false,
     "variable-name": {
-      "options": ["allow-pascal-case", "allow-snake-case"]
+      "options": ["allow-pascal-case", "allow-snake-case", "allow-leading-underscore"]
     },
     "class-name": true,
     // 如果for循环中没有使用索引，建议是使用for-of

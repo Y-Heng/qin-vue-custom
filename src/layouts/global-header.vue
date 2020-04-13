@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import HeaderSearch from './HeaderSearch'
-import HeaderNotice from './HeaderNotice'
-import HeaderAvatar from './HeaderlAvatar'
+import HeaderSearch from './header-search'
+import HeaderNotice from './header-notice'
+import HeaderAvatar from './header-avatar'
 import IMenu from '../components/menu/menu'
 
 export default {

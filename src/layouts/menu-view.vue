@@ -17,8 +17,9 @@
 </template>
 
 <script>
-import GlobalLayout from './GlobalLayout'
-import Contextmenu from '../components/menu/Contextmenu'
+import GlobalLayout from './global-layout'
+import Contextmenu from '@/components/menu/context-menu'
+
 export default {
   name: 'MenuView',
   components: { Contextmenu, GlobalLayout },

@@ -18,5 +18,5 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx", "src/permission.js", "src/permission.js", "src/components/box-search/temp.js"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }

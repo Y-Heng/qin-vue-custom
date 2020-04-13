@@ -3,7 +3,7 @@
     <div class="task-head">
       <h3 class="title"><span v-if="count">{{count}}</span>{{title}}</h3>
       <div class="actions" style="float: right">
-        <a-icon class="add" type="plus" draggable="true"/>
+        <a-icon class="add" type="plus" draggable="true" />
         <a-icon class="more" style="margin-left: 8px" type="ellipsis" />
       </div>
     </div>
@@ -30,15 +30,15 @@ const dragOptions = {
 
 export default {
   name: 'TaskGroup',
-  components: {Draggable},
+  components: { Draggable },
   props: ['title', 'group'],
-  data () {
+  data() {
     return {
-      dragOptions: {...dragOptions, group: this.group}
+      dragOptions: { ...dragOptions, group: this.group }
     }
   },
   computed: {
-    count () {
+    count() {
       return this.$slots.default.length
     }
   }
@@ -46,34 +46,34 @@ export default {
 </script>
 
 <style lang="less">
-  .task-group{
-    width: 33.33%;
-    padding: 8px 8px;
-    background-color: #e1e4e8;
-    border-radius: 6px;
-    border: 1px solid #d1d4d8;
-    .task-head{
-      margin-bottom: 8px;
-      .title{
+.task-group {
+  width: 33.33%;
+  padding: 8px 8px;
+  background-color: #e1e4e8;
+  border-radius: 6px;
+  border: 1px solid #d1d4d8;
+  .task-head {
+    margin-bottom: 8px;
+    .title {
+      display: inline-block;
+      span {
         display: inline-block;
-        span{
-          display: inline-block;
-          border-radius: 10px;
-          margin: 0 8px;
-          font-size: 12px;
-          padding: 2px 6px;
-          background-color: rgba(27,31,35,0.15);
-        }
+        border-radius: 10px;
+        margin: 0 8px;
+        font-size: 12px;
+        padding: 2px 6px;
+        background-color: rgba(27, 31, 35, 0.15);
       }
-      .actions{
-        display: inline-block;
-        float: right;
-        font-size: 18px;
-        font-weight: bold;
-        i{
-          cursor: pointer;
-        }
+    }
+    .actions {
+      display: inline-block;
+      float: right;
+      font-size: 18px;
+      font-weight: bold;
+      i {
+        cursor: pointer;
       }
     }
   }
+}
 </style>

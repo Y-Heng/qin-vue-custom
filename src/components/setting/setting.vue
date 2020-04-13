@@ -2,8 +2,8 @@
   <a-layout-sider class="sider" width="273">
     <setting-item title="整体风格设置">
       <img-checkbox-group @change="setTheme">
-        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/LCkqqYNmvBEbokSDscrm.svg" :checked="true" value="dark"/>
-        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/jpRkZQMyYRryryPNtyIC.svg" value="light"/>
+        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/LCkqqYNmvBEbokSDscrm.svg" :checked="true" value="dark" />
+        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/jpRkZQMyYRryryPNtyIC.svg" value="light" />
       </img-checkbox-group>
     </setting-item>
     <setting-item title="主题色">
@@ -18,11 +18,11 @@
         <color-checkbox color="rgb(114, 46, 209)" value="8" />
       </color-checkbox-group>
     </setting-item>
-    <a-divider/>
+    <a-divider />
     <setting-item title="导航设置">
       <img-checkbox-group @change="setLayout">
-        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/JopDzEhOqwOjeNTXkoje.svg" :checked="true" value="side"/>
-        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/KDNDBbriJhLwuqMoxcAr.svg" value="head"/>
+        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/JopDzEhOqwOjeNTXkoje.svg" :checked="true" value="side" />
+        <img-checkbox img="https://gw.alipayobjects.com/zos/rmsportal/KDNDBbriJhLwuqMoxcAr.svg" value="head" />
       </img-checkbox-group>
     </setting-item>
     <setting-item>
@@ -62,15 +62,15 @@
       </a-list>
     </setting-item>
     <a-divider />
-    <a-button id="copyBtn" data-clipboard-text="Sorry, you copy nothing O(∩_∩)O~" @click="copyCode" style="width: 100%" icon="copy" >拷贝代码</a-button>
+    <a-button id="copyBtn" data-clipboard-text="Sorry, you copy nothing O(∩_∩)O~" @click="copyCode" style="width: 100%" icon="copy">拷贝代码</a-button>
   </a-layout-sider>
 </template>
 
 <script>
-import SettingItem from './SettingItem'
-import StyleItem from './StyleItem'
-import ColorCheckbox from '../checkbox/ColorCheckbox'
-import ImgCheckbox from '../checkbox/ImgCheckbox'
+import SettingItem from './setting-item'
+import StyleItem from './style-item'
+import ColorCheckbox from '../checkbox/color-checkbox'
+import ImgCheckbox from '../checkbox/img-checkbox'
 import Clipboard from 'clipboard'
 
 const ColorCheckboxGroup = ColorCheckbox.Group
@@ -78,33 +78,33 @@ const ImgCheckboxGroup = ImgCheckbox.Group
 
 export default {
   name: 'Setting',
-  components: {ImgCheckboxGroup, ImgCheckbox, ColorCheckboxGroup, ColorCheckbox, StyleItem, SettingItem},
+  components: { ImgCheckboxGroup, ImgCheckbox, ColorCheckboxGroup, ColorCheckbox, StyleItem, SettingItem },
   computed: {
-    multipage () {
+    multipage() {
       return this.$store.state.setting.multipage
     }
   },
   methods: {
-    onColorChange (values, colors) {
+    onColorChange(values, colors) {
       if (colors.length > 0) {
         this.$message.info(`您选择了主题色 ${colors}`)
       }
     },
-    setTheme (values) {
+    setTheme(values) {
       this.$store.commit('setting/setTheme', values[0])
     },
-    setLayout (values) {
+    setLayout(values) {
       this.$store.commit('setting/setLayout', values[0])
     },
-    copyCode () {
-      let clipboard = new Clipboard('#copyBtn')
+    copyCode() {
+      const clipboard = new Clipboard('#copyBtn')
       const _this = this
-      clipboard.on('success', function () {
+      clipboard.on('success', () => {
         _this.$message.success(`复制成功`)
         clipboard.destroy()
       })
     },
-    setMultipage (checked) {
+    setMultipage(checked) {
       this.$store.commit('setting/setMultipage', checked)
     }
   }
@@ -112,16 +112,16 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .sider{
-    background-color: #fff;
-    height: 100%;
-    padding: 24px;
-    font-size: 14px;
-    line-height: 1.5;
-    word-wrap: break-word;
-    position: relative;
-    .flex{
-      display: flex;
-    }
+.sider {
+  background-color: #fff;
+  height: 100%;
+  padding: 24px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  position: relative;
+  .flex {
+    display: flex;
   }
+}
 </style>
