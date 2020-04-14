@@ -1,9 +1,9 @@
 <template>
   <div class="home-layouts">
-    <div v-height="-100" class="box-map">
+    <div v-height="-60" class="box-map">
       <region-flux />
     </div>
-    <div v-height="-100" class="box-table">右边</div>
+    <div v-height="-60" class="box-table">右边</div>
   </div>
 </template>
 
