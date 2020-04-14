@@ -37,7 +37,7 @@ export default {
 
 <style lang="less" scoped>
 .avatar {
-  margin: 20px 4px 20px 0;
+  margin: 20px 10px 20px 0;
   color: #1890ff;
   background: hsla(0, 0%, 100%, 0.85);
   vertical-align: middle;
