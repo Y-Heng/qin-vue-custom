@@ -9,6 +9,7 @@ import '@/mock'
 import store from './store'
 import VueLazyload from 'vue-lazyload'
 import PouchDB from 'pouchdb'
+import '@/directive'
 
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
