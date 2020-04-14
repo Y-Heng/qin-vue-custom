@@ -1,12 +1,14 @@
 <template>
   <global-layout>
     <contextmenu :itemList="menuItemList" :visible.sync="menuVisible" @select="onMenuSelect" />
-    <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" style="margin-top: -8px; margin-bottom: 8px" :hide-add="true" type="editable-card"
-      @change="changePage" @edit="editPage">
-      <a-tab-pane :id="page.fullPath" :key="page.fullPath" v-for="page in pageList">
-        <span slot="tab" :pagekey="page.fullPath">{{page.name}}</span>
-      </a-tab-pane>
-    </a-tabs>
+    <div v-if="homeHide">
+      <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" style="margin-top: -8px; margin-bottom: 8px" :hide-add="true" type="editable-card"
+        @change="changePage" @edit="editPage">
+        <a-tab-pane :id="page.fullPath" :key="page.fullPath" v-for="page in pageList">
+          <span slot="tab" :pagekey="page.fullPath">{{page.name}}</span>
+        </a-tab-pane>
+      </a-tabs>
+    </div>
     <transition name="page-toggle">
       <keep-alive v-if="multipage">
         <router-view />
@@ -37,6 +39,9 @@ export default {
     }
   },
   computed: {
+    homeHide() {
+      return this.$route.path !== '/home'
+    },
     multipage() {
       return this.$store.state.setting.multipage
     }

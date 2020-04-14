@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MenuView from '@/layouts/menu-view.vue'
-import Home from '@/views/home/home.vue'
 
 Vue.use(Router)
 
@@ -28,10 +27,19 @@ export const constantRouterMap = [
       {
         name: '首页',
         path: '/home',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/home/home.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/views/home/index.vue'),
         icon: 'home',
         meta: {
           title: 'home'
+        }
+      },
+      {
+        name: '预报分析',
+        path: '/forecast-analysis',
+        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/forecast-analysis/index.vue'),
+        icon: 'dot-chart',
+        meta: {
+          title: 'forecast-analysis'
         }
       }
     ]
@@ -39,7 +47,6 @@ export const constantRouterMap = [
 ]
 
 const router = new Router({
-  mode: 'history',
   base: process.env.VUE_APP_BASE_PATH,
   routes: [
     ...constantRouterMap,
