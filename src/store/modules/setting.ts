@@ -3,7 +3,7 @@ export default {
   state: {
     isMobile: false,
     theme: 'dark',
-    layout: 'side',
+    layout: 'head',
     systemName: '空气质量预报分析系统',
     copyright: 'copyright',
     footerLinks: [

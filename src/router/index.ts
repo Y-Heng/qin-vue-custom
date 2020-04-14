@@ -24,15 +24,15 @@ const constantRouterMap = [
     invisible: true,
     children: [
       {
-        path: '/dashboard',
-        name: 'Dashboard',
+        path: '/home',
+        name: 'Home',
         component: RouteView,
-        icon: 'dashboard',
+        icon: 'home',
         children: [
           {
-            path: '/dashboard/workplace',
+            path: '/home',
             name: '工作台',
-            component: () => import('@/views/dashboard/analysis.vue'),
+            component: () => import('@/views/home/home.vue'),
             icon: 'none'
           }
         ]

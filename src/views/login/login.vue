@@ -12,12 +12,12 @@
             <a-tab-pane tab="欢迎登录" key="1">
               <a-alert type="error" :closable="true" v-show="error" :message="error" showIcon style="margin-bottom: 24px;" />
               <a-form-item label="用户名">
-                <a-input v-decorator="['username', { rules: [{ required: true, message: '请输入用户名！' }] }]" size="large" placeholder="admin">
+                <a-input v-decorator="['username', { initialValue: 'admin',rules: [{ required: true, message: '请输入用户名！' }] }]" size="large" placeholder="admin">
                   <a-icon slot="prefix" type="user" />
                 </a-input>
               </a-form-item>
               <a-form-item label="密码">
-                <a-input v-decorator="['password', { rules: [{ required: true, message: '请输入密码!' }] }]" size="large" placeholder="888888" type="password">
+                <a-input v-decorator="['password', {  initialValue: '888888',rules: [{ required: true, message: '请输入密码!' }] }]" size="large" placeholder="888888" type="password">
                   <a-icon slot="prefix" type="lock" />
                 </a-input>
               </a-form-item>
@@ -76,7 +76,7 @@ export default {
               const result = res.data
               if (result.code >= 0) {
                 const user = result.data.user
-                this.$router.push('/dashboard/workplace')
+                this.$router.push('/home')
                 this.$store.commit('account/setuser', user)
                 this.$message.success(result.message, 3)
               } else {
