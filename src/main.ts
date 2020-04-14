@@ -23,22 +23,11 @@ Vue.use(VueLazyload, {
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  mounted() {
+    const db = new PouchDB('admindb')
+    db.get('currUser').then((doc: any) => {
+      this.$store.commit('account/setuser', doc.user)
+    })
+  }
 }).$mount('#app')
-
-/* eslint-disable no-new */
-// new Vue({
-//   el: '#app',
-//   router,
-//   store,
-//   components: {
-//     App
-//   },
-//   template: '<app />',
-//   mounted() {
-//     // var db = new PouchDB('admindb')
-//     // db.get('currUser').then(doc => {
-//     //   this.$store.commit('account/setuser', doc.user)
-//     // })
-//   }
-// })

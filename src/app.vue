@@ -10,13 +10,6 @@ import enquireScreen from './utils/device'
 import PouchDB from 'pouchdb'
 
 export default class App extends Vue {
-  mounted() {
-    const db = new PouchDB('admindb')
-    db.get('currUser').then((doc: any) => {
-      this.$store.commit('account/setuser', doc.user)
-    })
-  }
-
   private created() {
     // 组件创建时
     enquireScreen((isMobile: boolean) => {

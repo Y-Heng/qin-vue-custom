@@ -1,46 +1,63 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import PageView from '@/layouts/page-view.vue'
-import RouteView from '@/layouts/route-view.vue'
 import MenuView from '@/layouts/menu-view.vue'
-
-import Login from '@/views/login/login.vue'
+import Home from '@/views/home/home.vue'
 
 Vue.use(Router)
 
-const constantRouterMap = [
+/*
+  hidden: false, 是否导航条显示
+  meta: {
+    title: '', // 默认空，页面标题,用于导航栏显示
+    icon: '', 图标
+    roles: '', // 权限码 为空都展示
+  }
+*/
+
+export const constantRouterMap = [
   {
-    path: '/login',
-    name: '登录页',
-    component: Login,
-    invisible: true
-  },
-  {
-    path: '/',
     name: '首页',
+    path: '/',
     component: MenuView,
     redirect: '/login',
-    icon: 'none',
-    invisible: true,
+    icon: 'home',
+    meta: {
+      title: '首页'
+    },
     children: [
       {
+        name: '首页',
         path: '/home',
-        name: 'Home',
-        component: RouteView,
+        component: () => import(/* webpackChunkName: "home" */ '@/views/home/home.vue'),
         icon: 'home',
-        children: [
-          {
-            path: '/home',
-            name: '工作台',
-            component: () => import('@/views/home/home.vue'),
-            icon: 'none'
-          }
-        ]
+        meta: {
+          title: 'home'
+        }
       }
     ]
   }
 ]
 
-export default new Router({
-  routes: constantRouterMap
+const router = new Router({
+  mode: 'history',
+  base: process.env.VUE_APP_BASE_PATH,
+  routes: [
+    ...constantRouterMap,
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import(/* webpackChunkName: "svg" */ '@/views/login/login.vue')
+    },
+    // 错误页
+    {
+      path: '/404',
+      component: () => import(/* webpackChunkName: "404" */ '@/views/404.vue')
+    },
+    {
+      path: '*',
+      component: () => import(/* webpackChunkName: "404" */ '@/views/404.vue')
+    }
+  ]
 })
+
+export default router

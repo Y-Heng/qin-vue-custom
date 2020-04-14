@@ -11,13 +11,6 @@
         <i-menu style="height: 64px; line-height: 64px;" :theme="theme" mode="horizontal" :menuData="menuData" @select="onSelect" />
       </div>
       <div :class="['global-header-right', theme]">
-        <header-search class="header-item" />
-        <a-tooltip class="header-item" title="帮助文档" placement="bottom">
-          <a>
-            <a-icon type="question-circle-o" />
-          </a>
-        </a-tooltip>
-        <header-notice class="header-item" />
         <header-avatar class="header-item" />
       </div>
     </div>

@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import PageHeader from '../components/page/PageHeader'
-import PageLayout from './PageLayout'
+import PageHeader from '../components/page/page-header'
+import PageLayout from './page-layout'
 export default {
   name: 'PageView',
   components: { PageLayout, PageHeader },
