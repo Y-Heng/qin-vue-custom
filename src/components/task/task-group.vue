@@ -1,7 +1,10 @@
 <template>
   <div class="task-group">
     <div class="task-head">
-      <h3 class="title"><span v-if="count">{{count}}</span>{{title}}</h3>
+      <h3 class="title">
+        <span v-if="count">{{ count }}</span
+        >{{ title }}
+      </h3>
       <div class="actions" style="float: right">
         <a-icon class="add" type="plus" draggable="true" />
         <a-icon class="more" style="margin-left: 8px" type="ellipsis" />
@@ -67,7 +70,7 @@ export default {
     }
     .actions {
       display: inline-block;
-      float: right;
+      // float: right;
       font-size: 18px;
       font-weight: bold;
       i {
