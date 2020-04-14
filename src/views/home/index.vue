@@ -1,16 +1,21 @@
 <template>
   <div class="home-layouts">
-    <div v-height="-100" class="box-map">假装这里是地图</div>
-    <div v-height="-100" class="box-table">右边</div>
+    <div v-height="-60" class="box-map">
+      <region-flux />
+    </div>
+    <div v-height="-60" class="box-table">右边</div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import RegionFlux from '../maps/region-flux.vue'
 
 const minHeight = window.innerHeight - 0 - 0 - 90
 
-@Component({})
+@Component({
+  components: { RegionFlux }
+})
 export default class Home extends Vue {}
 </script>
 

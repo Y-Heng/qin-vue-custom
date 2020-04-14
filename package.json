@@ -13,6 +13,7 @@
     "pre": "vue-cli-service build --mode pre"
   },
   "dependencies": {
+    "@astrosat/windgl": "^0.1.0",
     "@types/axios": "^0.14.0",
     "@types/clipboard": "^2.0.1",
     "@types/enquire.js": "^2.1.2",
@@ -25,6 +26,7 @@
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "lodash": "^4.17.15",
+    "mapbox-gl": "^1.9.1",
     "mock": "^0.1.1",
     "mockjs": "^1.1.0",
     "moment": "^2.24.0",
