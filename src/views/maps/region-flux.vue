@@ -80,13 +80,13 @@ export default {
         }
       })
 
-      const layer = particles({
-        source: source('static/data/wind/tile.json'),
-        id: 'particles',
-        'particle-speed': ['interpolate', ['linear'], ['zoom'], 0, 0.5, 10, 0.8],
-        'particle-color': 'rgba(73, 139, 170, 1)'
-      })
-      map.addLayer(layer, 'waterway-label')
+      // const layer = particles({
+      //   source: source('static/data/wind/tile.json'),
+      //   id: 'particles',
+      //   'particle-speed': ['interpolate', ['linear'], ['zoom'], 0, 0.5, 10, 0.8],
+      //   'particle-color': 'rgba(73, 139, 170, 1)'
+      // })
+      // map.addLayer(layer, 'waterway-label')
     })
   }
 }
