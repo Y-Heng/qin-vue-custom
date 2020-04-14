@@ -1,0 +1,4451 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.00920927524567, 23.932909555723995],
+            [114.03293609619139, 23.920364131434173]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.03293609619139, 23.920364131434173],
+            [114.04074668884277, 23.87351580987326]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.04074668884277, 23.87351580987326],
+            [114.0576982498169, 23.846709687285443]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.0576982498169, 23.846709687285443],
+            [114.05211925506592, 23.830026651049145]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.05211925506592, 23.830026651049145],
+            [114.03692722320557, 23.818759480953567]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.03692722320557, 23.818759480953567],
+            [114.03757095336914, 23.808080284506023]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.03757095336914, 23.808080284506023],
+            [114.04778480529785, 23.80332933027446]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.04778480529785, 23.80332933027446],
+            [114.03666973114014, 23.79571173519989]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.03666973114014, 23.79571173519989],
+            [114.06001567840576, 23.775919607316705]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.06001567840576, 23.775919607316705],
+            [114.03834342956543, 23.771206751828277]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.03834342956543, 23.771206751828277],
+            [114.02309775352478, 23.75225542210324]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.02309775352478, 23.75225542210324],
+            [114.01821613311768, 23.76282137431006]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.01821613311768, 23.76282137431006],
+            [114.00996565818787, 23.763037397842492]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.00996565818787, 23.763037397842492],
+            [114.01313066482544, 23.77794951901456]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.01313066482544, 23.77794951901456],
+            [113.99880230426788, 23.76301284973186]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.99880230426788, 23.76301284973186],
+            [113.97611081600188, 23.7577226238745]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.97611081600188, 23.7577226238745],
+            [113.97285461425781, 23.73925301794761]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.97285461425781, 23.73925301794761],
+            [113.92005264759062, 23.729448798801467]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.92005264759062, 23.729448798801467],
+            [113.91234397888184, 23.716515333654662]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.91234397888184, 23.716515333654662],
+            [113.90094459056854, 23.715439738051078]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.90094459056854, 23.715439738051078],
+            [113.88731360435486, 23.68811467159244]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88731360435486, 23.68811467159244],
+            [113.84784489870071, 23.679333382585167]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.84784489870071, 23.679333382585167],
+            [113.85276138782501, 23.66776819999438]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.85276138782501, 23.66776819999438],
+            [113.84392619132996, 23.66948044216184]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.84392619132996, 23.66948044216184],
+            [113.83996725082397, 23.65545266131505]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.83996725082397, 23.65545266131505],
+            [113.81878316402435, 23.65617251226652]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.81878316402435, 23.65617251226652],
+            [113.82840156555174, 23.645939446636824]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.82840156555174, 23.645939446636824],
+            [113.8137674331665, 23.62901443588016]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.8137674331665, 23.62901443588016],
+            [113.85962516069412, 23.60996872631916]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.85962516069412, 23.60996872631916],
+            [113.86404812335968, 23.587395363055393]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.86404812335968, 23.587395363055393],
+            [113.8528311252594, 23.570605380557435]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.8528311252594, 23.570605380557435],
+            [113.86314421892166, 23.565356534126355]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.86314421892166, 23.565356534126355],
+            [113.87131690979004, 23.541287826904153]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.87131690979004, 23.541287826904153],
+            [113.88801097869873, 23.535110735524736]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88801097869873, 23.535110735524736],
+            [113.89233469963072, 23.5210931705743]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F91E31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89233469963072, 23.5210931705743],
+            [113.88801097869873, 23.535110735524736]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88801097869873, 23.535110735524736],
+            [113.89233469963072, 23.5210931705743]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89233469963072, 23.5210931705743],
+            [113.91122817993164, 23.50426028350121]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.91122817993164, 23.50426028350121],
+            [113.94624710083008, 23.493083081404876]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.94624710083008, 23.493083081404876],
+            [113.9329433441162, 23.47985812531304]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.9329433441162, 23.47985812531304],
+            [113.97397041320801, 23.47891343483978]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.97397041320801, 23.47891343483978],
+            [113.98186683654785, 23.472064226579505]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.98186683654785, 23.472064226579505],
+            [113.97431373596191, 23.46489973174492]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.97431373596191, 23.46489973174492],
+            [113.9542293548584, 23.46568705789159]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.9542293548584, 23.46568705789159],
+            [113.9526844024658, 23.442931439320265]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.9526844024658, 23.442931439320265],
+            [113.96186828613281, 23.431434030839014]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.96186828613281, 23.431434030839014],
+            [113.98727416992188, 23.431749041656527]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.98727416992188, 23.431749041656527],
+            [113.98427009582518, 23.408672513556937]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.98427009582518, 23.408672513556937],
+            [114.00006294250487, 23.396620713269577]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.00006294250487, 23.396620713269577],
+            [113.98075103759766, 23.37747736429499]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.98075103759766, 23.37747736429499],
+            [114.00143623352051, 23.344698793248035]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.00143623352051, 23.344698793248035],
+            [113.99353981018066, 23.33319285591444]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.99353981018066, 23.33319285591444],
+            [113.98332595825195, 23.33248355318485]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.98332595825195, 23.33248355318485],
+            [113.99680137634277, 23.297407752060654]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.99680137634277, 23.297407752060654],
+            [113.95834922790527, 23.3152226862241]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.95834922790527, 23.3152226862241],
+            [113.95946502685547, 23.331616622482823]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.95946502685547, 23.331616622482823],
+            [113.93920898437499, 23.34312269638222]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.93920898437499, 23.34312269638222],
+            [113.89577865600585, 23.345014010375824]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89577865600585, 23.345014010375824],
+            [113.88899803161621, 23.333429289315934]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88899803161621, 23.333429289315934],
+            [113.89809608459471, 23.32081892065709]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89809608459471, 23.32081892065709],
+            [113.89028549194336, 23.282586431622196]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89028549194336, 23.282586431622196],
+            [113.87646675109863, 23.265082535113667]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.87646675109863, 23.265082535113667],
+            [113.89517784118652, 23.25341199323904]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89517784118652, 23.25341199323904],
+            [113.8897705078125, 23.241977025683155]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.8897705078125, 23.241977025683155],
+            [113.90376091003418, 23.21271481954257]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.90376091003418, 23.21271481954257],
+            [113.89380455017088, 23.212557054422323]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89380455017088, 23.212557054422323],
+            [113.88359069824219, 23.191809318446065]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88359069824219, 23.191809318446065],
+            [113.88856887817381, 23.17863322927214]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88856887817381, 23.17863322927214],
+            [113.90238761901854, 23.17334664913117]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F82C2F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.90238761901854, 23.17334664913117],
+            [113.89148712158203, 23.16324633346558]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89148712158203, 23.16324633346558],
+            [113.875093460083, 23.165298021751042]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.875093460083, 23.165298021751042],
+            [113.85844230651855, 23.15716999531381]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.85844230651855, 23.15716999531381],
+            [113.84865760803223, 23.14722630199122]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.84865760803223, 23.14722630199122],
+            [113.84093284606934, 23.116364589204355]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.84093284606934, 23.116364589204355],
+            [113.81466865539551, 23.127731365725925]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.81466865539551, 23.127731365725925],
+            [113.75381469726562, 23.12962573485859]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.75381469726562, 23.12962573485859],
+            [113.73870849609375, 23.141307086604076]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.73870849609375, 23.141307086604076],
+            [113.72420310974121, 23.141149237282395]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.72420310974121, 23.141149237282395],
+            [113.68781089782715, 23.119916810298935]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.68781089782715, 23.119916810298935],
+            [113.66128921508789, 23.111549206071196]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.66128921508789, 23.111549206071196],
+            [113.6601734161377, 23.118653809125775]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F84B2A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.6601734161377, 23.118653809125775],
+            [113.65124702453613, 23.119364248748248]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F77622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.65124702453613, 23.119364248748248],
+            [113.63983154296875, 23.103970548388666]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F77622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.63983154296875, 23.103970548388666],
+            [113.61056327819824, 23.10389160178689]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F77622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.61056327819824, 23.10389160178689],
+            [113.58610153198242, 23.087706568716193]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.58610153198242, 23.087706568716193],
+            [113.5561466217041, 23.08115304969331]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.5561466217041, 23.08115304969331],
+            [113.52293014526367, 23.03716514818362]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.52293014526367, 23.03716514818362],
+            [113.52910995483398, 22.982100808807935]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.52910995483398, 22.982100808807935],
+            [113.57460021972656, 22.8913576769446]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.57460021972656, 22.8913576769446],
+            [113.5711669921875, 22.85466376836665]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.5711669921875, 22.85466376836665],
+            [113.68523597717285, 22.717765194112715]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.68523597717285, 22.717765194112715],
+            [113.71690750122069, 22.644670123508366]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.71690750122069, 22.644670123508366],
+            [113.73750686645508, 22.527621236040204]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.73750686645508, 22.527621236040204],
+            [113.70549201965332, 22.516204246664763]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#F68F1A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.70549201965332, 22.516204246664763],
+            [113.65150451660155, 22.51596638268882]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.65150451660155, 22.51596638268882],
+            [113.62077713012695, 22.579620019918522]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.62077713012695, 22.579620019918522],
+            [113.56181144714355, 22.60743448605094]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.56181144714355, 22.60743448605094],
+            [113.5330581665039, 22.65496756111066]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.5330581665039, 22.65496756111066],
+            [113.54061126708984, 22.66637305187174]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.54061126708984, 22.66637305187174],
+            [113.47130298614502, 22.71503373956418]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.47130298614502, 22.71503373956418],
+            [113.46795558929442, 22.72853213602685]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.46795558929442, 22.72853213602685],
+            [113.41229438781738, 22.742860354456415]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.41229438781738, 22.742860354456415],
+            [113.36345672607422, 22.774242611072083]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.36345672607422, 22.774242611072083],
+            [113.35654735565186, 22.792997287079906]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.35654735565186, 22.792997287079906],
+            [113.37491512298583, 22.79461940580789]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.37491512298583, 22.79461940580789],
+            [113.3933687210083, 22.809969232252524]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.3933687210083, 22.809969232252524],
+            [113.37440013885498, 22.822667137220368]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.37440013885498, 22.822667137220368],
+            [113.34667682647705, 22.816140324592165]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.34667682647705, 22.816140324592165],
+            [113.31217288970947, 22.830419792925316]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.31217288970947, 22.830419792925316],
+            [113.30968379974365, 22.851302300651675]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.30968379974365, 22.851302300651675],
+            [113.29625129699707, 22.85988376522353]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.29625129699707, 22.85988376522353],
+            [113.30092906951903, 22.876649671376285]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.30092906951903, 22.876649671376285],
+            [113.27706813812256, 22.894757687967317]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.27706813812256, 22.894757687967317],
+            [113.28590869903564, 22.901557454392577]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.28590869903564, 22.901557454392577],
+            [113.28243255615234, 22.927409267198737]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.28243255615234, 22.927409267198737],
+            [113.29813957214355, 22.93448405662842]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.29813957214355, 22.93448405662842],
+            [113.28638076782227, 22.950371342583868]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.28638076782227, 22.950371342583868],
+            [113.26706886291502, 22.954955386834197]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.26706886291502, 22.954955386834197],
+            [113.24998855590819, 22.97332952186001]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.24998855590819, 22.97332952186001],
+            [113.25788497924805, 22.994901124466526]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.25788497924805, 22.994901124466526],
+            [113.24960231781004, 23.002130396176092]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.24960231781004, 23.002130396176092],
+            [113.25299263000488, 23.019787152975205]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#A3DB30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.25299263000488, 23.019787152975205],
+            [113.2631206512451, 23.021090580323794]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.2631206512451, 23.021090580323794],
+            [113.2578420639038, 23.046682600274494]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.2578420639038, 23.046682600274494],
+            [113.21187973022461, 23.043088952569715]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.21187973022461, 23.043088952569715],
+            [113.17754745483398, 23.068360923710944]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17754745483398, 23.068360923710944],
+            [113.17720413208008, 23.077520841320762]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17720413208008, 23.077520841320762],
+            [113.20930480957031, 23.083363911097347]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20930480957031, 23.083363911097347],
+            [113.2170295715332, 23.098838922751682]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.2170295715332, 23.098838922751682],
+            [113.20810317993164, 23.100102110328947]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20810317993164, 23.100102110328947],
+            [113.20243835449219, 23.121258736021293]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20243835449219, 23.121258736021293],
+            [113.21033477783203, 23.123626807501026]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.21033477783203, 23.123626807501026],
+            [113.21256637573242, 23.141307086604076]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.21256637573242, 23.141307086604076],
+            [113.1869888305664, 23.148567954471414]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.1869888305664, 23.148567954471414],
+            [113.18964958190918, 23.161944284211362]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.18964958190918, 23.161944284211362],
+            [113.20960521697998, 23.177055167511995]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20960521697998, 23.177055167511995],
+            [113.20904731750488, 23.19228268671898]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20904731750488, 23.19228268671898],
+            [113.17754745483398, 23.22091834904908]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17754745483398, 23.22091834904908],
+            [113.18183898925781, 23.253017700334286]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.18183898925781, 23.253017700334286],
+            [113.17660331726073, 23.27359823152542]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17660331726073, 23.27359823152542],
+            [113.12793731689452, 23.31451328756949]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.12793731689452, 23.31451328756949],
+            [113.1243324279785, 23.306709652555423]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.1243324279785, 23.306709652555423],
+            [113.11343193054199, 23.310020341523167]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.11343193054199, 23.310020341523167],
+            [113.10562133789061, 23.302925907104758]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.10562133789061, 23.302925907104758],
+            [113.10544967651367, 23.290312645009976]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.10544967651367, 23.290312645009976],
+            [113.07161092758179, 23.283729624111697]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.07161092758179, 23.283729624111697],
+            [113.08079481124878, 23.250868783510857]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.08079481124878, 23.250868783510857],
+            [113.04478883743285, 23.251006788384114]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.04478883743285, 23.251006788384114],
+            [113.05377960205078, 23.263801191094974]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.05377960205078, 23.263801191094974],
+            [113.0514407157898, 23.278407782468665]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.0514407157898, 23.278407782468665],
+            [113.03266525268555, 23.297841329670614]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.03266525268555, 23.297841329670614],
+            [113.0375576019287, 23.320109551867787]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.0375576019287, 23.320109551867787],
+            [113.02348136901855, 23.32495682979877]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.02348136901855, 23.32495682979877],
+            [113.04317951202393, 23.353012394508294]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.04317951202393, 23.353012394508294],
+            [113.03360939025877, 23.356873510873935]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.03360939025877, 23.356873510873935],
+            [113.01678657531737, 23.34111314574207]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.01678657531737, 23.34111314574207],
+            [113.01172256469727, 23.35356398943928]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.01172256469727, 23.35356398943928],
+            [112.98807621002197, 23.355888542884436]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.98807621002197, 23.355888542884436],
+            [112.98108100891113, 23.3814953335391]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.98108100891113, 23.3814953335391],
+            [112.98627376556396, 23.398550650487525]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.98627376556396, 23.398550650487525],
+            [113.00112247467041, 23.40634888580952]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.00112247467041, 23.40634888580952],
+            [112.9817247390747, 23.432930325536972]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.9817247390747, 23.432930325536972],
+            [112.98914909362793, 23.443325168472082]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.98914909362793, 23.443325168472082],
+            [112.96337842941284, 23.426472511459668]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.96337842941284, 23.426472511459668],
+            [112.95921564102173, 23.435351924491314]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.95921564102173, 23.435351924491314],
+            [112.97927856445312, 23.465135930082038]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.97927856445312, 23.465135930082038],
+            [113.0160140991211, 23.460608721704006]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.0160140991211, 23.460608721704006],
+            [113.02631378173828, 23.472812145924934]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.02631378173828, 23.472812145924934],
+            [113.05579662322998, 23.47194613366374]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.05579662322998, 23.47194613366374],
+            [113.08377742767334, 23.4944606047094]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.08377742767334, 23.4944606047094],
+            [113.11540603637695, 23.50158413833659]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.11540603637695, 23.50158413833659],
+            [113.11613559722899, 23.510714292301437]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.11613559722899, 23.510714292301437],
+            [113.15351486206055, 23.502882862631754]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.15351486206055, 23.502882862631754],
+            [113.17119598388672, 23.51165875486859]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17119598388672, 23.51165875486859],
+            [113.17232251167297, 23.520276662882527]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17232251167297, 23.520276662882527],
+            [113.17206501960754, 23.512347421220557]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.17206501960754, 23.512347421220557],
+            [113.19206357002258, 23.514787238743768]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.19206357002258, 23.514787238743768],
+            [113.1911301612854, 23.523188522559803]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.1911301612854, 23.523188522559803],
+            [113.21269512176514, 23.540343576942014]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.21269512176514, 23.540343576942014],
+            [113.20080757141113, 23.561823585905135]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20080757141113, 23.561823585905135],
+            [113.20218086242676, 23.576495639435525]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.20218086242676, 23.576495639435525],
+            [113.22702884674072, 23.585817245311215]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.22702884674072, 23.585817245311215],
+            [113.22793006896971, 23.594390964870026]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.22793006896971, 23.594390964870026],
+            [113.24440956115723, 23.58691848835482]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.24440956115723, 23.58691848835482],
+            [113.24041843414305, 23.60614942118971]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.24041843414305, 23.60614942118971],
+            [113.24848651885986, 23.60162706275821]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.24848651885986, 23.60162706275821],
+            [113.27646732330322, 23.616019418219764]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.27646732330322, 23.616019418219764],
+            [113.28135967254639, 23.608351556648888]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.28135967254639, 23.608351556648888],
+            [113.29946994781494, 23.636936635501645]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.29946994781494, 23.636936635501645],
+            [113.28938484191895, 23.644366947844116]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.28938484191895, 23.644366947844116],
+            [113.3272361755371, 23.644366947844116]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.3272361755371, 23.644366947844116],
+            [113.32792282104491, 23.655570589387324]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.32792282104491, 23.655570589387324],
+            [113.3490800857544, 23.667873833947965]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.3490800857544, 23.667873833947965],
+            [113.36367130279541, 23.707016388164277]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.36367130279541, 23.707016388164277],
+            [113.3754301071167, 23.712792458123303]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.3754301071167, 23.712792458123303],
+            [113.37821960449217, 23.73157274056765]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.37821960449217, 23.73157274056765],
+            [113.40422630310059, 23.723558055511543]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.40422630310059, 23.723558055511543],
+            [113.44182014465332, 23.727054718902064]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.44182014465332, 23.727054718902064],
+            [113.44388008117676, 23.716014372422332]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.44388008117676, 23.716014372422332],
+            [113.46430778503418, 23.708038024595282]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#81D945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.46430778503418, 23.708038024595282],
+            [113.46868515014648, 23.691219299359403]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.46868515014648, 23.691219299359403],
+            [113.48104476928711, 23.68406675492468]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.48104476928711, 23.68406675492468],
+            [113.5136604309082, 23.682023098855836]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.5136604309082, 23.682023098855836],
+            [113.54558944702147, 23.696485208046386]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.54558944702147, 23.696485208046386],
+            [113.53837966918944, 23.699235971409088]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.53837966918944, 23.699235971409088],
+            [113.54318618774414, 23.701750904326655]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.54318618774414, 23.701750904326655],
+            [113.55889320373535, 23.700729218673334]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.55889320373535, 23.700729218673334],
+            [113.56807708740234, 23.67919336844107]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.56807708740234, 23.67919336844107],
+            [113.587646484375, 23.675184478773343]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.587646484375, 23.675184478773343],
+            [113.59854698181151, 23.662685386343895]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.59854698181151, 23.662685386343895],
+            [113.62266540527344, 23.699393156136132]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.62266540527344, 23.699393156136132],
+            [113.63828659057617, 23.70458014593271]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.63828659057617, 23.70458014593271],
+            [113.62850189208984, 23.711810151348153]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#5CD55A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.62850189208984, 23.711810151348153],
+            [113.63639831542969, 23.750468159517187]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.63639831542969, 23.750468159517187],
+            [113.61562728881835, 23.787465381470714]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.61562728881835, 23.787465381470714],
+            [113.65176200866699, 23.820133578465683]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.65176200866699, 23.820133578465683],
+            [113.68137359619139, 23.8120458239552]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.68137359619139, 23.8120458239552],
+            [113.68738174438477, 23.825472790696928]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.68738174438477, 23.825472790696928],
+            [113.70632886886597, 23.8152652817517]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.70632886886597, 23.8152652817517],
+            [113.71858119964598, 23.820761732482953]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.71858119964598, 23.820761732482953],
+            [113.71356010437012, 23.86252714796173]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.71356010437012, 23.86252714796173],
+            [113.72471809387207, 23.85381404620426]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.72471809387207, 23.85381404620426],
+            [113.7579345703125, 23.857581945904627]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.7579345703125, 23.857581945904627],
+            [113.78771781921387, 23.90239584388794]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.78771781921387, 23.90239584388794],
+            [113.80947589874268, 23.900649883670287]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.80947589874268, 23.900649883670287],
+            [113.87532949447632, 23.930445678602425]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.87532949447632, 23.930445678602425],
+            [113.88585448265076, 23.923669161137298]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#29D087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.88585448265076, 23.923669161137298],
+            [113.89252781867981, 23.931681300469474]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.89252781867981, 23.931681300469474],
+            [113.91025185585022, 23.92356128316468]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.91025185585022, 23.92356128316468],
+            [113.93393039703368, 23.92926888487776]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.93393039703368, 23.92926888487776],
+            [113.94139766693115, 23.923502440596177]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.94139766693115, 23.923502440596177],
+            [113.96944284439085, 23.93254426745803]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.96944284439085, 23.93254426745803],
+            [113.9845061302185, 23.926189557214563]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [113.9845061302185, 23.926189557214563],
+            [114.00919586420059, 23.93290710412834]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bird Exhibit",
+        "level": 1,
+        "height": 0,
+        "base_height": 10000,
+        "color": "#37C6C0"
+      }
+    }
+  ]
+}
