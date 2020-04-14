@@ -1,0 +1,87 @@
+<template>
+  <div class="menu hh" :style="{width: collapsed?'80px':'250px'}">
+    <div class="menu-top" :style="{'text-align':collapsed?'center':'right'}">
+      <a-button type="primary" @click="toggleCollapsed()">
+        <a-icon :type="collapsed ? 'menu-unfold' : 'menu-fold'" />
+      </a-button>
+    </div>
+    <a-menu mode="inline" theme="dark" :inlineCollapsed="collapsed" :defaultSelectedKeys="default_open_keys">
+      <template v-for="menu in menus">
+        <a-sub-menu v-if="menu.children && menu.children.length>0" :key="menu.name">
+          <span slot="title">
+            <a-icon :type="menu.icon" /><span>{{menu.name}}</span>
+          </span>
+          <a-menu-item v-for="sub_chidren in menu.children" :key="sub_chidren.name" @click="toPath(sub_chidren.name)">
+            <a-icon :type="sub_chidren.icon" />
+            <span>{{sub_chidren.name}}</span>
+          </a-menu-item>
+        </a-sub-menu>
+        <a-menu-item v-else :key="menu.name" @click="toPath(menu.name)">
+          <a-icon :type="menu.icon" />
+          <span>{{menu.name}}</span>
+        </a-menu-item>
+      </template>
+    </a-menu>
+  </div>
+</template>
+
+<script lang='ts'>
+import { findArray } from '@/utils'
+import { constantRouterMap } from '@/router/index'
+import { Component, Vue, Prop } from 'vue-property-decorator'
+
+@Component({})
+export default class Menu extends Vue {
+  @Prop() ParentName!: string
+  // 切换显示
+  collapsed: boolean = false
+  // 默认选中数组
+  default_open_keys: string[] = []
+  // 菜单
+  menus: any[] = []
+  // 跳转
+  toPath(name: string) {
+    this.$router.push({ name })
+  }
+  // 遍历数组
+  recursionMenus(arr: any): any {
+    if (arr && arr.length > 0) {
+      for (const index of Object.keys(arr)) {
+        const item = arr[index]
+        if (item.name === this.ParentName) {
+          return item.children
+        }
+        // if (item.children && item.children.length > 0) {
+        //   return this.recursionMenus(item.children)
+        // }
+      }
+    } else {
+      return ''
+    }
+  }
+  // 获取菜单
+  getMenus() {
+    const children = this.recursionMenus(constantRouterMap)
+    if (children) {
+      this.menus = children
+      this.default_open_keys = [this.$route.name || '']
+    }
+  }
+  // 切换显示
+  toggleCollapsed() {
+    this.collapsed = !this.collapsed
+  }
+  private created() {
+    this.getMenus()
+  }
+}
+</script>
+
+<style rel='stylesheet/scss' lang='scss' scoped>
+.menu {
+  background-color: #001529;
+  .menu-top {
+    text-align: right;
+  }
+}
+</style>
