@@ -1,8 +1,8 @@
 <template>
   <a-layout-header :class="[theme, 'global-header']">
-    <div :class="['global-header-wide', layout]">
+    <div :class="['global-header-wide',global-header-left]">
       <router-link v-if="isMobile || layout === 'head'" to="/" :class="['logo', isMobile ? null : 'pc', theme]">
-        <img class="logo-postion" width="32" src="../assets/logo_blue.png" />
+        <img class="logo-postion" width="42" src="../assets/logo_blue.png" />
         <h1 v-if="!isMobile">{{ systemName }}</h1>
       </router-link>
       <a-divider v-if="isMobile" type="vertical" />
@@ -120,6 +120,15 @@ export default {
     }
     .global-header-menu {
       display: inline-block;
+    }
+    .global-header-left {
+      float: left;
+      &.dark {
+        color: #fff;
+        i {
+          color: #fff;
+        }
+      }
     }
     .global-header-right {
       float: right;
