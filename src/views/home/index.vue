@@ -1,7 +1,7 @@
 <template>
   <div class="home-layouts">
     <div v-height="-100" class="box-map">假装这里是地图</div>
-    <div class="box-table">右边</div>
+    <div v-height="-100" class="box-table">右边</div>
   </div>
 </template>
 
