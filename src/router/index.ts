@@ -37,6 +37,7 @@ export const constantRouterMap = [
         name: 'forecast_analysis',
         path: '/forecast-analysis',
         component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/forecast-analysis/index.vue'),
+        icon: 'dot-chart',
         redirect: '/forecast-analysis/index'
       }
     ]

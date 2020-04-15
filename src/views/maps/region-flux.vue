@@ -79,7 +79,6 @@ export default {
           'fill-extrusion-opacity': 0.1
         }
       })
-
       // const layer = particles({
       //   source: source('static/data/wind/tile.json'),
       //   id: 'particles',

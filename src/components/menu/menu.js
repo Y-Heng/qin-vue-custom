@@ -21,7 +21,10 @@
 import Menu from 'ant-design-vue/es/menu'
 import Icon from 'ant-design-vue/es/icon/'
 
-const {Item, SubMenu} = Menu
+const {
+  Item,
+  SubMenu
+} = Menu
 
 // 默认菜单图标数组，如果菜单没配置图标，则会设置从该数组随机取一个图标配置
 const iconArr = ['dashboard', 'user', 'form', 'setting', 'message', 'safety', 'bell', 'delete', 'code-o', 'poweroff', 'eye-o', 'hourglass']
@@ -49,7 +52,7 @@ export default {
       default: false
     }
   },
-  data () {
+  data() {
     return {
       openKeys: [],
       selectedKeys: [],
@@ -65,11 +68,11 @@ export default {
       return keys
     }
   },
-  created () {
+  created() {
     this.updateMenu()
   },
   watch: {
-    collapsed (val) {
+    collapsed(val) {
       if (val) {
         this.cachedOpenKeys = this.openKeys
         this.openKeys = []
@@ -82,27 +85,39 @@ export default {
     }
   },
   methods: {
+    generateTitle: function (title) {
+      const hasKey = this.$te('route.' + title)
+      const translatedTitle = this.$t('route.' + title) // $t :this method from vue-i18n, inject in @/lang/index.js
+      if (hasKey) {
+        return translatedTitle
+      }
+      return ''
+
+    },
     renderIcon: function (h, icon) {
-      return icon === 'none' ? null
-        : h(
-          Icon,
-          {
-            props: {type: icon !== undefined ? icon : iconArr[Math.floor((Math.random() * iconArr.length))]}
+      return icon === 'none' ? null :
+        h(
+          Icon, {
+            props: {
+              type: icon !== undefined ? icon : iconArr[Math.floor((Math.random() * iconArr.length))]
+            }
           })
     },
     renderMenuItem: function (h, menu, pIndex, index) {
       return h(
-        Item,
-        {
+        Item, {
           key: menu.path ? menu.path : 'item_' + pIndex + '_' + index
         },
         [
           h(
-            'a',
-            {attrs: {href: '#' + menu.path}},
+            'a', {
+              attrs: {
+                href: '#' + menu.path
+              }
+            },
             [
               this.renderIcon(h, menu.icon),
-              h('span', [menu.name])
+              h('span', this.generateTitle([menu.name]))
             ]
           )
         ]
@@ -110,8 +125,9 @@ export default {
     },
     renderSubMenu: function (h, menu, pIndex, index) {
       var this2_ = this
-      var subItem = [h('span',
-        {slot: 'title'},
+      var subItem = [h('span', {
+          slot: 'title'
+        },
         [
           this.renderIcon(h, menu.icon),
           h('span', [menu.name])
@@ -123,8 +139,9 @@ export default {
         itemArr.push(this2_.renderItem(h, item, pIndex_, i))
       })
       return h(
-        SubMenu,
-        {key: menu.path ? menu.path : 'submenu_' + pIndex + '_' + index},
+        SubMenu, {
+          key: menu.path ? menu.path : 'submenu_' + pIndex + '_' + index
+        },
         subItem.concat(itemArr)
       )
     },
@@ -141,7 +158,7 @@ export default {
       })
       return menuArr
     },
-    onOpenChange (openKeys) {
+    onOpenChange(openKeys) {
       const latestOpenKey = openKeys.find(key => this.openKeys.indexOf(key) === -1)
       if (this.rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
         this.openKeys = openKeys
@@ -149,7 +166,7 @@ export default {
         this.openKeys = latestOpenKey ? [latestOpenKey] : []
       }
     },
-    updateMenu () {
+    updateMenu() {
       let routes = this.$route.matched.concat()
       this.selectedKeys = [routes.pop().path]
       let openKeys = []
@@ -159,10 +176,9 @@ export default {
       this.collapsed || this.mode === 'horizontal' ? this.cachedOpenKeys = openKeys : this.openKeys = openKeys
     }
   },
-  render (h) {
+  render(h) {
     return h(
-      Menu,
-      {
+      Menu, {
         props: {
           theme: this.$props.theme,
           mode: this.$props.mode,

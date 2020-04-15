@@ -5,7 +5,7 @@
       <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" style="margin-top: -8px; margin-bottom: 8px" :hide-add="true" type="editable-card"
         @change="changePage" @edit="editPage">
         <a-tab-pane :id="page.fullPath" :key="page.fullPath" v-for="page in pageList">
-          <span slot="tab" :pagekey="page.fullPath">{{page.name}}</span>
+          <span slot="tab" :pagekey="page.fullPath">{{generateTitle(page.name)}}</span>
         </a-tab-pane>
       </a-tabs>
     </div>
@@ -89,6 +89,15 @@ export default {
       this.linkList = this.linkList.filter(item => item !== key)
       index = index >= this.linkList.length ? this.linkList.length - 1 : index
       this.activePage = this.linkList[index]
+    },
+    generateTitle(title) {
+      // TUDO 这段代码应该公共抽取
+      const hasKey = this.$te('route.' + title)
+      const translatedTitle = this.$t('route.' + title) // $t :this method from vue-i18n, inject in @/lang/index.js
+      if (hasKey) {
+        return translatedTitle
+      }
+      return ''
     },
     onContextmenu(e) {
       const pagekey = this.getPageKey(e.target)

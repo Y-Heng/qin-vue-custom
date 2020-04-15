@@ -1,15 +1,15 @@
 <template>
   <div>
-    <diy-menu parent-name="forecast_analysis" />
+    <sider-sub-menu parent-name="forecast_analysis" />
   </div>
 </template>
 
 <script lang="ts">
-import DiyMenu from '@/components/menu2/index.vue'
+import SiderSubMenu from '@/components/menu-cus/index.vue'
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
-  components: { DiyMenu }
+  components: { SiderSubMenu }
 })
 export default class ForecastAnalysis extends Vue {}
 </script>

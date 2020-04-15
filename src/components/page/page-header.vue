@@ -4,7 +4,7 @@
       <div class="breadcrumb">
         <a-breadcrumb>
           <a-breadcrumb-item :key="item.path" v-for="(item, index) in breadcrumb">
-            <span v-if="index === 0"><a href="#/dashboard/workplace">{{item.name}}</a></span>
+            <span v-if="index === 0"><a href="#/home">{{item.name}}</a></span>
             <span v-else>{{item.name}}</span>
           </a-breadcrumb-item>
         </a-breadcrumb>

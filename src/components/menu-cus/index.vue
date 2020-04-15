@@ -18,7 +18,7 @@
         </a-sub-menu>
         <a-menu-item v-else :key="menu.name" @click="toPath(menu.name)">
           <a-icon :type="menu.icon" />
-          <span>{{menu.name}}</span>
+          <span>{{generateTitle(menu.name)}}</span>
         </a-menu-item>
       </template>
     </a-menu>
@@ -42,6 +42,14 @@ export default class Menu extends Vue {
   // 跳转
   toPath(name: string) {
     this.$router.push({ name })
+  }
+  generateTitle(title: string) {
+    const hasKey = this.$te('route.' + title)
+    const translatedTitle = this.$t('route.' + title) // $t :this method from vue-i18n, inject in @/lang/index.js
+    if (hasKey) {
+      return translatedTitle
+    }
+    return ''
   }
   // 遍历数组
   recursionMenus(arr: any): any {
