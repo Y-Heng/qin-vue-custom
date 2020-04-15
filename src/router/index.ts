@@ -2,7 +2,32 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import MenuView from '@/layouts/menu-view.vue'
 
+const originalPush: any = Router.prototype.push
+Router.prototype.push = function push(location: any) {
+  // if (onResolve || onReject) {
+  //   return originalPush.call(this, location, onResolve, onReject)
+  // }
+  return originalPush.call(this, location).catch((err: any) => err)
+}
 Vue.use(Router)
+
+export const headerRouter = [
+  {
+    name: 'home',
+    path: '/home',
+    icon: 'home'
+  },
+  {
+    name: 'forecast_analysis',
+    path: '/forecast-analysis',
+    icon: 'dot-chart'
+  },
+  {
+    name: 'component_lib',
+    path: '/component-lib',
+    icon: 'appstore'
+  }
+]
 
 /*
   hidden: false, 是否导航条显示
@@ -32,20 +57,6 @@ export const constantRouterMap = [
         meta: {
           title: 'home'
         }
-      },
-      {
-        name: 'forecast_analysis',
-        path: '/forecast-analysis',
-        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/forecast-analysis/index.vue'),
-        icon: 'dot-chart',
-        redirect: '/forecast-analysis/index'
-      },
-      {
-        name: 'component_lib',
-        path: '/component-lib',
-        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/index.vue'),
-        icon: 'appstore',
-        redirect: '/component-lib/index'
       }
     ]
   },
@@ -84,11 +95,12 @@ export const constantRouterMap = [
         }
       }
     ]
-  }, {
+  },
+  {
     name: 'component_lib',
     path: '/component-lib',
     component: MenuView,
-    redirect: '/component/index',
+    redirect: '/component-lib/index',
     icon: 'appstore',
     meta: {
       title: 'component'
