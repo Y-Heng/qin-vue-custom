@@ -1,10 +1,4 @@
 <template>
-  <div class="menu hh" :style="{width: collapsed?'80px':'250px'}">
-    <div class="menu-top" :style="{'text-align':collapsed?'center':'right'}">
-      <a-button type="primary" @click="toggleCollapsed()">
-        <a-icon :type="collapsed ? 'menu-unfold' : 'menu-fold'" />
-      </a-button>
-    </div>
     <a-menu mode="inline" theme="dark" :inlineCollapsed="collapsed" :defaultSelectedKeys="default_open_keys">
       <template v-for="menu in menus">
         <a-sub-menu v-if="menu.children && menu.children.length>0" :key="menu.name">
@@ -22,7 +16,6 @@
         </a-menu-item>
       </template>
     </a-menu>
-  </div>
 </template>
 
 <script lang='ts'>

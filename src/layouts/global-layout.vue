@@ -12,13 +12,10 @@
       <setting />
     </drawer> -->
     <a-layout>
-      <global-header :menuData="menuData" :collapsed="collapsed" @toggleCollapse="toggleCollapse" />
+      <global-header :menuData="menuData" :collapsed="collapsed" @toggleCollapse="toggleCollapse" :style="{ position: 'fixed', zIndex: 1, width: '100%' }" />
       <a-layout-content :style="{ minHeight: minHeight, margin: '24px 24px 0' }">
         <slot></slot>
       </a-layout-content>
-      <!-- <a-layout-footer style="padding: 0px">
-        <global-footer :link-list="linkList" :copyright="copyright" />
-      </a-layout-footer> -->
     </a-layout>
   </a-layout>
 </template>

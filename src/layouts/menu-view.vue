@@ -2,7 +2,7 @@
   <global-layout>
     <contextmenu :itemList="menuItemList" :visible.sync="menuVisible" @select="onMenuSelect" />
     <div v-if="homeHide">
-      <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" style="margin-top: -8px; margin-bottom: 8px" :hide-add="true" type="editable-card"
+      <a-tabs @contextmenu.native="e => onContextmenu(e)" v-if="multipage" :active-key="activePage" class="tabs-position" :hide-add="true" type="editable-card"
         @change="changePage" @edit="editPage">
         <a-tab-pane :id="page.fullPath" :key="page.fullPath" v-for="page in pageList">
           <span slot="tab" :pagekey="page.fullPath">{{generateTitle(page.name)}}</span>
@@ -166,4 +166,8 @@ export default {
 </script>
 
 <style scoped>
+.tabs-position{
+    position: relative;
+    margin-top: 56px;
+}
 </style>
