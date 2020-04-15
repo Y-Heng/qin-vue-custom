@@ -92,7 +92,6 @@ export default {
         return translatedTitle
       }
       return ''
-
     },
     renderIcon: function (h, icon) {
       return icon === 'none' ? null :
@@ -188,6 +187,7 @@ export default {
         on: {
           openChange: this.onOpenChange,
           select: (obj) => {
+            this.$store.commit('setting/setMenuString', obj.key.substring(1, obj.key.length))
             this.selectedKeys = obj.selectedKeys
             this.$emit('select', obj)
           }

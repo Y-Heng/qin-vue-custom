@@ -12,10 +12,15 @@
       <setting />
     </drawer> -->
     <a-layout>
+      <a-layout-sider v-if="homeHide" :style="{ overflow: 'auto', marginTop:'60px' ,height: '100vh', position: 'fixed', left: 0}" collapsible v-model="collapsed">
+        <sider-sub-menu :parent-name="menuString" />
+      </a-layout-sider>
       <global-header :menuData="menuData" :collapsed="collapsed" @toggleCollapse="toggleCollapse" :style="{ position: 'fixed', zIndex: 1, width: '100%' }" />
-      <a-layout-content :style="{ minHeight: minHeight, margin: '24px 24px 0' }">
-        <slot></slot>
-      </a-layout-content>
+      <a-layout :style="{ marginLeft: '200px' }">
+         <a-layout-content :style="{ margin: '24px 16px 0', overflow: 'initial' }">
+          <slot></slot>
+        </a-layout-content>
+      </a-layout>
     </a-layout>
   </a-layout>
 </template>
@@ -26,6 +31,7 @@ import GlobalFooter from './global-footer'
 import Drawer from '../components/tool/drawer'
 import SiderMenu from '../components/menu/sider-menu'
 import Setting from '../components/setting/setting'
+import SiderSubMenu from '@/components/menu-cus/index.vue'
 
 const minHeight = window.innerHeight - 0 - 0 - 90
 
@@ -33,16 +39,19 @@ let menuData = []
 
 export default {
   name: 'GlobalLayout',
-  components: { Setting, SiderMenu, Drawer, GlobalFooter, GlobalHeader },
+  components: { Setting, SiderMenu, Drawer, GlobalFooter, GlobalHeader, SiderSubMenu },
   data() {
     return {
       minHeight: minHeight + 'px',
       collapsed: false,
       menuData,
-      showSetting: false
+      showSetting: false,
     }
   },
   computed: {
+    homeHide() {
+      return this.$route.path !== '/home'
+    },
     isMobile() {
       return this.$store.state.setting.isMobile
     },

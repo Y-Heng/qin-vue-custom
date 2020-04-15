@@ -39,6 +39,13 @@ export const constantRouterMap = [
         component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/forecast-analysis/index.vue'),
         icon: 'dot-chart',
         redirect: '/forecast-analysis/index'
+      },
+      {
+        name: 'component_lib',
+        path: '/component-lib',
+        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/index.vue'),
+        icon: 'appstore',
+        redirect: '/component-lib/index'
       }
     ]
   },
@@ -75,6 +82,23 @@ export const constantRouterMap = [
         meta: {
           title: 'test2'
         }
+      }
+    ]
+  }, {
+    name: 'component_lib',
+    path: '/component-lib',
+    component: MenuView,
+    redirect: '/component/index',
+    icon: 'appstore',
+    meta: {
+      title: 'component'
+    },
+    children: [
+      {
+        name: 'component_lib_index',
+        path: 'index',
+        icon: 'dot-chart',
+        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/index.vue')
       }
     ]
   }
