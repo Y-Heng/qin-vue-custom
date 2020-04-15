@@ -21,10 +21,11 @@
 <script lang='ts'>
 import { findArray } from '@/utils'
 import { constantRouterMap } from '@/router/index'
-import { Component, Vue, Prop } from 'vue-property-decorator'
+import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
 
 @Component({})
 export default class Menu extends Vue {
+  // 父路由名称
   @Prop() ParentName!: string
   // 切换显示
   collapsed: boolean = false
@@ -53,9 +54,6 @@ export default class Menu extends Vue {
           console.log(item)
           return item.children
         }
-        // if (item.children && item.children.length > 0) {
-        //   return this.recursionMenus(item.children)
-        // }
       }
     } else {
       return ''
@@ -69,10 +67,13 @@ export default class Menu extends Vue {
       this.default_open_keys = [this.$route.name || '']
     }
   }
-  // 切换显示
-  toggleCollapsed() {
-    this.collapsed = !this.collapsed
+
+  // 监听父路由名称
+  @Watch('ParentName')
+  parentNameChange() {
+    this.getMenus()
   }
+
   private created() {
     // 这个只会调用一次，在Store的值刷新时不会改变数据，是不是要外部抛出？
     this.getMenus()

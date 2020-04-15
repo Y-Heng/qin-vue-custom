@@ -1,21 +1,14 @@
 <template>
   <a-layout>
     <drawer v-if="isMobile" :openDrawer="collapsed" @change="onDrawerChange">
-      <sider-menu :theme="theme" :menuData="menuData" :collapsed="false" :collapsible="false" @menuSelect="onMenuSelect" />
+      <sider-menu :theme="theme" :menuData="menu_data" :collapsed="false" :collapsible="false" @menuSelect="onMenuSelect" />
     </drawer>
-    <sider-menu :theme="theme" v-else-if="layout === 'side'" :menuData="menuData" :collapsed="collapsed" :collapsible="true" />
-    <!-- 设置栏 -->
-    <!-- <drawer :open-drawer="showSetting" placement="right" @change="onSettingDrawerChange">
-      <div class="setting" slot="handler">
-        <a-icon :type="showSetting ? 'close' : 'setting'" />
-      </div>
-      <setting />
-    </drawer> -->
+    <sider-menu :theme="theme" v-else-if="layout === 'side'" :menuData="menu_data" :collapsed="collapsed" :collapsible="true" />
     <a-layout>
       <a-layout-sider v-if="homeHide" :style="{ overflow: 'auto', marginTop:'60px' ,height: '100vh', position: 'fixed', left: 0}" collapsible v-model="collapsed">
-        <sider-sub-menu :parent-name="menuString" />
+        <sider-sub-menu :parent-name="parent_name" />
       </a-layout-sider>
-      <global-header :menuData="menuData" :collapsed="collapsed" @toggleCollapse="toggleCollapse" :style="{ position: 'fixed', zIndex: 1, width: '100%' }" />
+      <global-header :menuData="menu_data" :collapsed="collapsed" @toggleCollapse="toggleCollapse" :style="{ position: 'fixed', zIndex: 1, width: '100%' }" />
       <a-layout :style="{ marginLeft: '200px' }">
         <a-layout-content :style="{ margin: '24px 16px 0', overflow: 'initial' }">
           <slot></slot>
@@ -25,68 +18,75 @@
   </a-layout>
 </template>
 
-<script>
-import GlobalHeader from './global-header'
-import GlobalFooter from './global-footer'
-import Drawer from '../components/tool/drawer'
-import SiderMenu from '../components/menu/sider-menu'
-import Setting from '../components/setting/setting'
+<script lang='ts'>
+import { findArray } from '@/utils'
+import GlobalHeader from './global-header.vue'
+import GlobalFooter from './global-footer.vue'
+import Drawer from '../components/tool/drawer.vue'
+import { constantRouterMap, headerRouter } from '@/router/index'
+import Setting from '../components/setting/setting.vue'
+import SiderMenu from '../components/menu/sider-menu.vue'
 import SiderSubMenu from '@/components/menu-cus/index.vue'
+import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
 
-const minHeight = window.innerHeight - 0 - 0 - 90
+@Component({
+  components: { Setting, SiderMenu, Drawer, GlobalFooter, GlobalHeader, SiderSubMenu }
+})
+export default class GlobalLayout extends Vue {
+  // 缩放
+  collapsed: boolean = false
+  // 头部路由菜单
+  menu_data: any[] = headerRouter
+  // 父路由节点
+  parent_name: string = ''
 
-let menuData = []
+  get homeHide() {
+    return this.$route.path !== '/home'
+  }
+  get isMobile() {
+    return this.$store.state.setting.isMobile
+  }
+  get theme() {
+    return this.$store.state.setting.theme
+  }
+  get layout() {
+    return this.$store.state.setting.layout
+  }
+  get linkList() {
+    return this.$store.state.setting.footerLinks
+  }
+  get copyright() {
+    return this.$store.state.setting.copyright
+  }
 
-export default {
-  name: 'GlobalLayout',
-  components: { Setting, SiderMenu, Drawer, GlobalFooter, GlobalHeader, SiderSubMenu },
-  data() {
-    return {
-      minHeight: minHeight + 'px',
-      collapsed: false,
-      menuData,
-      showSetting: false
+  toggleCollapse() {
+    this.collapsed = !this.collapsed
+  }
+  onDrawerChange(show: boolean) {
+    this.collapsed = show
+  }
+  onMenuSelect() {
+    this.toggleCollapse()
+  }
+  @Watch('$route', { deep: true, immediate: true })
+  routeChange(val: any) {
+    let route_path = ''
+    let route_name = ''
+    if (val && val.fullPath) {
+      const f_index: number = val.fullPath.indexOf('/', 1)
+      if (f_index > -1) {
+        route_path = val.fullPath.substring(0, f_index)
+      }
     }
-  },
-  computed: {
-    homeHide() {
-      return this.$route.path !== '/home'
-    },
-    isMobile() {
-      return this.$store.state.setting.isMobile
-    },
-    theme() {
-      return this.$store.state.setting.theme
-    },
-    layout() {
-      return this.$store.state.setting.layout
-    },
-    linkList() {
-      return this.$store.state.setting.footerLinks
-    },
-    copyright() {
-      return this.$store.state.setting.copyright
-    },
-    menuString() {
-      return this.$store.state.setting.menuString
+    if (route_path) {
+      for (const item of constantRouterMap) {
+        if (route_path === item.path) {
+          route_name = item.name
+          break
+        }
+      }
     }
-  },
-  methods: {
-    toggleCollapse() {
-      this.collapsed = !this.collapsed
-    },
-    onDrawerChange(show) {
-      this.collapsed = show
-    },
-    onMenuSelect() {
-      this.toggleCollapse()
-    },
-    onSettingDrawerChange(val) {
-      this.showSetting = val
-    }
-  },
-  beforeCreate() {
-    menuData = this.$router.options.routes.find(item => item.path === '/').children
+    this.parent_name = route_name
   }
 }
 </script>
