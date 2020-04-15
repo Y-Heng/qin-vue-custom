@@ -17,7 +17,7 @@
       </a-layout-sider>
       <global-header :menuData="menuData" :collapsed="collapsed" @toggleCollapse="toggleCollapse" :style="{ position: 'fixed', zIndex: 1, width: '100%' }" />
       <a-layout :style="{ marginLeft: '200px' }">
-         <a-layout-content :style="{ margin: '24px 16px 0', overflow: 'initial' }">
+        <a-layout-content :style="{ margin: '24px 16px 0', overflow: 'initial' }">
           <slot></slot>
         </a-layout-content>
       </a-layout>
@@ -45,7 +45,7 @@ export default {
       minHeight: minHeight + 'px',
       collapsed: false,
       menuData,
-      showSetting: false,
+      showSetting: false
     }
   },
   computed: {
@@ -66,6 +66,9 @@ export default {
     },
     copyright() {
       return this.$store.state.setting.copyright
+    },
+    menuString() {
+      return this.$store.state.setting.menuString
     }
   },
   methods: {

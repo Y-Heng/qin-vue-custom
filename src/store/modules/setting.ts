@@ -23,7 +23,6 @@ export default {
       state.theme = theme
     },
     setMenuString(state: any, menuString: string) {
-      console.log(menuString)
       state.menuString = menuString
     },
     setLayout(state: any, layout: any) {
