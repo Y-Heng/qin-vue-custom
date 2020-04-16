@@ -11,6 +11,7 @@ Router.prototype.push = function push(location: any) {
 }
 Vue.use(Router)
 
+// 头部菜单
 export const headerRouter = [
   {
     name: 'home',
@@ -110,7 +111,23 @@ export const constantRouterMap = [
         name: 'component_lib_index',
         path: 'index',
         icon: 'dot-chart',
-        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/index.vue')
+        redirect: '/component-lib/index/sub',
+        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/index.vue'),
+        // 三级路由跳转
+        children: [
+          {
+            name: 'sub',
+            path: 'sub',
+            icon: 'file-search',
+            component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/search.vue')
+          }
+        ]
+      },
+      {
+        name: 'component_lib_search',
+        path: 'search',
+        icon: 'file-search',
+        component: () => import(/* webpackChunkName: "forecastAnalysis" */ '@/views/component-lib/search.vue')
       }
     ]
   }

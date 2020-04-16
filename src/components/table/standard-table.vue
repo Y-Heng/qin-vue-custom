@@ -3,19 +3,16 @@
     <div class="alert">
       <a-alert type="info" :show-icon="true">
         <div slot="message">
-          已选择&nbsp;<a style="font-weight: 600">{{selectedRows.length}}</a>&nbsp;项&nbsp;&nbsp;
+          已选择&nbsp;<a style="font-weight: 600">{{ selectedRows.length }}</a>&nbsp;项&nbsp;&nbsp;
           <div v-for="(item, index) in needTotalList" v-show="item.needTotal" :key="index">
-            {{item.title}}总计&nbsp;
-            <a :key="index" style="font-weight: 600">
-              {{item.customRender ? item.customRender(item.total) : item.total}}
-            </a>&nbsp;&nbsp;
+            {{ item.title }}总计&nbsp; <a :key="index" style="font-weight: 600"> {{ item.customRender ? item.customRender(item.total) : item.total }} </a>&nbsp;&nbsp;
           </div>
-          <a style="margin-left: 24px">清空</a>
+          <a>清空</a>
         </div>
       </a-alert>
     </div>
     <a-table :bordered="bordered" :loading="loading" :columns="columns" :dataSource="dataSource" :rowKey="rowKey" :pagination="pagination"
-      :rowSelection="{selectedRowKeys: selectedRowKeys, onChange: updateSelect}">
+      :rowSelection="{ selectedRowKeys: selectedRowKeys, onChange: updateSelect }">
     </a-table>
   </div>
 </template>

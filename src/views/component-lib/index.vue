@@ -1,16 +1,7 @@
 <template>
-  <div>xxxxxxxxxx</div>
+  <div style="padding:30px;">
+    <el-alert :closable="false" title="table" type="success">
+      <router-view />
+    </el-alert>
+  </div>
 </template>
-
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
-
-@Component({
-})
-export default class ComponentLib extends Vue {
-
-}
-</script>
-
-<style rel="stylesheet/scss" lang="scss" scoped>
-</style>

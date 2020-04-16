@@ -1,24 +1,24 @@
 <template>
   <a-menu mode="inline" theme="dark" :inlineCollapsed="collapsed" :defaultSelectedKeys="default_open_keys">
     <template v-for="menu in menus">
-      <a-sub-menu v-if="menu.children && menu.children.length>0" :key="menu.name">
+      <a-sub-menu v-if="menu.children && menu.children.length > 0" :key="menu.name">
         <span slot="title">
-          <a-icon :type="menu.icon" /><span>{{menu.name}}</span>
+          <a-icon :type="menu.icon" /><span>{{ generateTitle(menu.name) }}</span>
         </span>
         <a-menu-item v-for="sub_chidren in menu.children" :key="sub_chidren.name" @click="toPath(sub_chidren.name)">
           <a-icon :type="sub_chidren.icon" />
-          <span>{{sub_chidren.name}}</span>
+          <span>{{ generateTitle(sub_chidren.name) }}</span>
         </a-menu-item>
       </a-sub-menu>
       <a-menu-item v-else :key="menu.name" @click="toPath(menu.name)">
         <a-icon :type="menu.icon" />
-        <span>{{generateTitle(menu.name)}}</span>
+        <span>{{ generateTitle(menu.name) }}</span>
       </a-menu-item>
     </template>
   </a-menu>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import { findArray } from '@/utils'
 import { constantRouterMap } from '@/router/index'
 import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
@@ -35,6 +35,7 @@ export default class Menu extends Vue {
   menus: any[] = []
   // 跳转
   toPath(name: string) {
+    console.log(name)
     this.$router.push({ name })
   }
   generateTitle(title: string) {
@@ -51,7 +52,6 @@ export default class Menu extends Vue {
       for (const index of Object.keys(arr)) {
         const item = arr[index]
         if (item.name === this.ParentName) {
-          console.log(item)
           return item.children
         }
       }
@@ -81,7 +81,7 @@ export default class Menu extends Vue {
 }
 </script>
 
-<style rel='stylesheet/scss' lang='scss' scoped>
+<style rel="stylesheet/scss" lang="scss" scoped>
 .menu {
   background-color: #001529;
   .menu-top {
