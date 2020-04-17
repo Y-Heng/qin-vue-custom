@@ -16,7 +16,14 @@ const minHeight = window.innerHeight - 0 - 0 - 90
 @Component({
   components: { RegionFlux }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  getFaceInter() {
+    this.$api.Demo1.LoginAPi.login_by_ac()
+  }
+  private created() {
+    this.getFaceInter()
+  }
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>

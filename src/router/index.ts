@@ -4,9 +4,6 @@ import MenuView from '@/layouts/menu-view.vue'
 
 const originalPush: any = Router.prototype.push
 Router.prototype.push = function push(location: any) {
-  // if (onResolve || onReject) {
-  //   return originalPush.call(this, location, onResolve, onReject)
-  // }
   return originalPush.call(this, location).catch((err: any) => err)
 }
 Vue.use(Router)

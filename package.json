@@ -34,6 +34,7 @@
     "nprogress": "^0.2.0",
     "pouchdb": "^7.2.1",
     "screenfull": "^5.0.2",
+    "view-design": "^4.2.0",
     "viser-vue": "^2.4.8",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
